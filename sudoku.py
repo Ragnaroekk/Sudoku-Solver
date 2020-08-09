@@ -2,13 +2,13 @@
 # CS 325 HW 6 Portfolio Project
 # Description: A sudoku solver.
 # Code developed based on Python Sudoku Solver - Computerphile
-# https://www.youtube.com/watch?v=G_UYXzGuqvM with a few minor changes
+# https://www.youtube.com/watch?v=G_UYXzGuqvM
 # With additional research from https://medium.com/@littleowllabs/solving-sudoku-with-elixir-d36f40232499,
 # http://norvig.com/sudoku.html, and https://www.researchgate.net/publication/220174445_A_Survey_of_NP-Complete_puzzles
 
 import numpy as np
 
-# adjust as needed to match your puzzle
+# adjust as needed to match your puzzle, zeros represent empty squares
 board = [[5, 3, 0, 0, 7, 0, 0, 0, 0],
          [6, 0, 0, 1, 9, 5, 0, 0, 0],
          [0, 9, 8, 0, 0, 0, 0, 6, 0],
